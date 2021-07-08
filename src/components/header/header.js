@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import ReactDOM from 'react-dom';
 import Logo from './logo';
 import HeaderNavList from './headerNavList';
+import HeaderSelectLang from './headerSelectLang';
+import UserProfile from './userProfile';
 
 const HeaderDiv = styled.div`
     display: flex;
@@ -18,6 +20,8 @@ export default class Header extends React.Component {
             <HeaderDiv>
                 <Logo/>
                 <HeaderNavList/>
+                <HeaderSelectLang/>
+                <UserProfile/>
             </HeaderDiv>
         )
     }
