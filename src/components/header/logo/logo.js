@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import logo from './logo.svg';
 
 const LogoImg = styled.div`
-    padding: 20px;
+    padding: 20px 25px;
     display: inline-block;
     border-right: 1px solid #fff;
 `
