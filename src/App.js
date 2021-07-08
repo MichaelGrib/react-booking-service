@@ -1,9 +1,10 @@
 import './App.css';
-import Logo from './components/header/logo';
+import Header from './components/header/';
 
 function App() {
   return (
-    <Logo/>
+    <Header>
+    </Header>
   );
 }
 
